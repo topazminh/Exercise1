@@ -49,7 +49,7 @@ void setup() {
   
   // Bắt đầu chế độ STA để có thể có RSSI và MAC khi kết nối
   WiFi.mode(WIFI_STA); 
-  
+  WiFi.begin("TEN_WIFI_CUA_BAN", "MAT_KHAU");
   // Bạn có thể thêm WiFi.begin(SSID, PASS) ở đây nếu muốn kiểm tra status khi đã kết nối
 }
 
